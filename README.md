@@ -24,7 +24,7 @@ void test(int k)     // Function test for checking which philosopher is eating..
   if(state[i]=='h')
   self[i]='w';
   }
-  void putdown(int i)
+  void putdown(int i)  
   {
   state[i]='t';
   spoon[i]='s';
